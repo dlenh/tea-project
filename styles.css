@@ -1,0 +1,159 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+}
+
+header nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    padding-right: 10px;    
+}
+
+/* Mission Section */
+.mission-bg {
+    height: 700px;
+    background-image: url(images/img-mission-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.mission {
+    flex: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px 0 20px 0;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+/* Tea Section */
+.tea {
+    width: 1000px;
+    margin: 0 auto 75px auto;
+}
+
+.tea h2,
+.tea h4 {
+    text-align: center;
+}
+
+li img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea h2 + h4 {
+    margin-bottom: 30px;
+}
+
+.tea-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.bot-row {
+    display: flex;
+    margin: 10px auto;
+}
+
+.bot-row img {
+    margin-right: 33px;
+}
+
+/* Location Section */
+.location-bg {
+    background-image: url(images/img-locations-background.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.location-bg > h2 {
+    text-align: center;
+    background: none;
+    padding: 85px 0 15px 0;
+    margin-bottom: 0;
+}
+
+.location-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.location-box {
+    margin-top: 0;
+    height: 300px;
+    width: 300px;
+    padding-left: 0;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+ul ul li {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.location-box h3 {
+    font-size: 24px;
+}
+
+/* Last Section */
+.last {
+    text-align: center;
+}
+
+.last h2 {
+    margin-bottom: 50px;
+}
+
+.last h5 {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+/* Footer Section */
+.footer > h5 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
